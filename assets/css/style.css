@@ -1,0 +1,300 @@
+*,
+img{
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+a{
+	color: #666;
+}
+a:hover{
+	color: #FFF;		
+}
+body {
+	background-color: #B1A07F;
+	/*background-color: #A98668;*/
+	/*background: #1a2732 url(http://tomos.hostoi.com/TParallax/assets/img/parallaxBG/stars2.jpg) repeat-y center top;*/
+	color: #fff;
+}
+h1 { font-family: 'Nothing You Could Do'; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 26.4px; } 
+h3 { font-family: 'Nothing You Could Do'; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 12.4px; } 
+p { font-family: 'Nothing You Could Do'; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote { font-family: 'Nothing You Could Do'; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: 'Nothing You Could Do'; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+/*----------------------------------------------------------*/
+/*------------------------NAVBAR CSS------------------------*/
+/*----------------------------------------------------------*/
+.nav_top_list{
+	margin: auto;
+	height: 22px;
+	width: 750px;
+	list-style:none;
+	padding-top: 13px;
+	color: #D7C5A3;
+	background-color: #60391C;
+	/*background:url(http://tomos.hostoi.com/TParallax/assets/img/header_right_textbg.jpg);*/
+}
+.search_button{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url('http://tomos.hostoi.com/TParallax/assets/img/search.png') transparent;
+	border: medium none;
+}
+.search_input{
+	display: inline-block;
+	height: 25px;
+	background-color: #B63EB7;
+	border: medium none;
+	color: #FFF;
+}
+.nav_top_list li{
+	float:left;
+	height: 20px;
+	margin: 0;
+	padding: 3px 18px 0 0;
+	position: relative;
+	z-index: 5;
+}
+#leftcorner{
+	padding: 0;
+	margin: 0;
+	height: 22px;
+	width: 16px;
+	/*background:url(http://tomos.hostoi.com/TParallax/assets/img/header_right_text_cap.jpg);*/
+}
+.nav_top_list li a,
+.nav_top_text{
+	/*color: #FFF;*/
+	font-family:Gadget, sans-serif;
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+}
+.subnav a,
+.subnav{
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	display: block;
+	width: 170px;
+	font-size: 12px;
+	color: #373636;
+}
+.subnav a
+	text-indent: 17px;	
+}
+.subnav div{
+	text-indent: -10px;	
+}
+.subnav li:hover{
+	background: #B1A286;
+}
+.subnav,
+.subnav2{
+	list-style: none;
+	position: absolute !important; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	margin: 0; padding: 0;
+	float: left;
+	display: block;
+	/* background: #e71717; */
+	/*background: url(http://tomos.hostoi.com/TParallax/assets/img/menu_background.png);*/
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border: 1px solid #B1A286;
+	text-indent: 0px;
+	background-color: #D7C5A3;
+}
+.subnav{
+	left: 0; top: 23px;
+}
+.subnav2{
+	left: 170px; top: 0;
+}
+.subnav li{
+	padding: 7px 10px;
+	clear: both;
+	width: 142px;
+	height: auto;
+	margin: 0 0 0 4px;
+	border-top: 1px solid #B1A286;
+}
+/*----------------------------------------------------------*/
+/*--------------------END OF NAVBAR CSS---------------------*/
+/*----------------------------------------------------------*/
+#header{
+	height:80px;
+	width: 100%;
+	/*background:url(http://tomos.hostoi.com/TParallax/assets/img/border/header.png);*/
+}
+#leftHeader{
+	height: 151px;
+	width: 335px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 15px 0 0 45px;
+	background: url(../img/titlePaper.png);
+}
+#rightHeader{
+	display: inline-block;
+	vertical-align: top;
+	border: solid 5px #D7C5A3;
+	margin: 21px 0 0 30px;
+	padding: 0 10px 9px;
+}
+#wrapper{
+	/*background: url(http://tomos.hostoi.com/TParallax/assets/img/parallaxBG/purpleClear.png);*/
+  width: 1013px;
+  border-left-style: solid;
+	border-right-style: solid;
+	border-color:#5F3119;
+	/*the margin bottom needs to match the footer so it works*/
+	margin: 0 auto -80px;
+	color: #2d2d2d;
+}
+#content{
+	min-height: 495px;
+	width: 820px;
+	margin: 0 auto 20px;
+	/*background: url(../img/ShadeBG.png);*/
+}
+#footer{
+	height:27px;
+	width: 100%;
+	/*padding-top: 50px;*/
+	/*background:url(http://tomos.hostoi.com/TParallax/assets/img/border/footer.png);*/
+	text-align:center;
+	padding-top: 15px;
+}
+#boxBG{
+	background: url(../img/cardboardBG.jpg) repeat-y;
+}
+#boxHead{
+	background: url(../img/border/borderTop.png) no-repeat;
+	width: 1013px;
+}
+#boxFoot{
+	background: url(../img/border/borderBottom.png) no-repeat bottom;
+	width: 1013px;
+}
+#trackingArea{
+	background: url(../img/corkboard.jpg);
+	/*background: url(../img/ShadeBG.png);*/
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	padding: 10px 15px 20px;
+	color: #666;
+	border: solid 2px #6F6243;
+}
+#trackingArea h1{
+	color: #FFF;
+	margin-bottom: 12px;
+}
+.trackBox{
+	background: url(../img/stickynote.png);
+	display:inline-block;
+	text-align:center;
+	width: 215px;
+	height:215px;
+	/* For IE 7 because it sucks! */
+	zoom: 1;
+	vertical-align: top;
+	margin-right: 30px;
+	/*display: inline;*/
+}
+.trackBox > div{
+	margin-top: 50px;
+}
+.trackInfo{
+	padding: 5px;
+	height:20px;
+	overflow: hidden;
+}
+.thumbnail {
+	display:inline-block;
+	height:190px;
+	margin:2px;
+	padding-top:2px;
+	text-align:center;
+	border: 1px none #fff;
+	font-size: 12px;
+	font-weight: bold;
+	width: 160px;
+	background:#333;
+	/* For IE 7 because it sucks! */
+	zoom: 1;
+	*display: inline;
+}
+.thumbnail img {
+	height: 180px;
+	border-top-width: 1px;
+	border-right-width: 3px;
+	border-bottom-width: 4px;
+	border-left-width: 1px;
+	border-style: solid;
+	border-color: #1A1C3C;	
+}
+.thumbnail a {
+	text-decoration:none;	
+}
+.thumbnail a:visited {
+	text-decoration:none;	
+}
+.thumbnail a:hover {
+	border-color:#fff;
+	text-decoration:none;
+}
+#editTrackingBG{
+	display: none;
+	width:100%;
+	height:100%;
+	background: url(../img/ShadeBG.png);
+	position: fixed;
+	left:0;
+	top:0;
+}
+#editTracking{
+	background: url(../img/trakit-edit.png);
+	position: relative;
+	left: 35%;
+	top: 26%;
+	width:400px;
+	height:300px;
+	background-color: #A98668;
+}
+#editTracking form{
+	margin: 80px 0 0 44px;
+}
+#trackingClose{
+	cursor:pointer;
+	width: 24px;
+	height: 24px;
+	top: 3px;
+	left: 375px;
+}
+#loginMain,
+#registerMain{
+	border: solid 5px #D7C5A3;
+	margin: auto;
+	padding: 0 10px 9px;
+	width: 300px;
+}
+#loginMain form,
+#registerMain form{
+	color: #000;
+}
+#mainPage{
+	background-color: #B1A07F;
+	padding: 30px;
+}
+#mainPage h1{
+	width: 300px;
+	margin:auto;
+}
+.trackProvider{
+	font-size: 35px;
+	font-weight: bold;
+	line-height: 17.4px;
+	margin-bottom: 25px;
+}
